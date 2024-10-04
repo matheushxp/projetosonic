@@ -1,0 +1,257 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1f3a; /* Fundo escuro que faz as cores brilhantes se destacarem */
+    color: #fff; /* Texto branco para bom contraste */
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #00d9ff; /* Azul neon que reflete a velocidade do Sonic */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0a74da; /* Azul vibrante do Sonic */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px #00d9ff; /* Efeito de sombra que destaca */
+}
+
+/* Menu de Navegação */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #00d9ff;
+}
+
+/* Seção de Jogos Recentes */
+section#jogos {
+    background-color: #0d3b66; /* Azul escuro com contraste */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#jogos h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #e94f37; /* Efeito vibrante para títulos */
+}
+
+section#jogos article {
+    margin-bottom: 20px;
+}
+
+section#jogos article h3 {
+    font-size: 2rem;
+    color: #00d9ff;
+}
+
+section#jogos article p {
+    color: #a8dadc; /* Texto suave */
+}
+
+    /* Estilos para a seção de jogos */
+    #jogos .jogo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    }
+
+    #jogos .jogo img {
+    width: 150px; /* Tamanho da imagem do jogo */
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
+    margin-right: 20px;
+    }
+
+    #jogos .jogo-info {
+    text-align: left;
+    }
+
+    #jogos .jogo h3 {
+    font-size: 1.8rem;
+    color: #00bfff; /* Cor do título do jogo */
+    }
+
+    #jogos .jogo p {
+    color: #ffddd2; /* Cor suave para a descrição */
+    }
+
+
+/* Seção de Curiosidades */
+section#curiosidades {
+    background-color: #2a9d8f; /* Verde água vibrante */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#curiosidades h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px #264653;
+}
+
+section#curiosidades ul {
+    list-style: none;
+    color: #fff;
+}
+
+section#curiosidades ul li {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #264653;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+section#curiosidades ul li:hover {
+    background-color: #00d9ff;
+}
+
+/* Seção de Personagens */
+section#personagens {
+    background-color: #5d0202f9; /* Vermelho mais "dark" do Shadow */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#personagens h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #14213d;
+}
+
+section#personagens article {
+    margin-bottom: 20px;
+}
+
+section#personagens article h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+section#personagens article p {
+    color: #ffddd2; /* Texto mais suave para contraste */
+}
+    /* Estilos para a seção de personagens */
+    #personagens .personagem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+
+    #personagens .personagem img {
+    width: 100px; /* Tamanho da imagem do personagem */
+    height: 100px;
+    border-radius: 50%; /* Deixa a imagem circular */
+    margin-right: 20px;
+    }
+
+    #personagens .personagem-info {
+    text-align: left;
+    }
+
+    #personagens .personagem h3 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+    }
+
+    #personagens .personagem p {
+    color: #ffddd2; /* Texto suave */
+    }
+
+
+/* Seção de Filmes */
+section#filmes {
+    background-color: #14213d; /* Azul profundo, quase preto */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#filmes h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px #fca311;
+}
+
+section#filmes article h3 {
+    font-size: 2rem;
+    color: #fca311;
+}
+
+section#filmes article p {
+    color: #e5e5e5;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0a74da;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+footer ul li a:hover {
+    color: #00d9ff;
+}
